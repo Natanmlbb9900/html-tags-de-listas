@@ -54,10 +54,22 @@ body{
         margin-bottom: 16px;
     }
 
-    ul{
+    ul, ol{
         padding-left: 20px;
         li{
             padding: 5px;
+        }
+    }
+
+    table{
+        margin-top: 10px;
+        width: 100%;
+        tr{
+            td{
+                width: 50%;
+                height: 50px;
+                border-bottom: 1px solid  #dddddd;
+            }
         }
     }
 }
